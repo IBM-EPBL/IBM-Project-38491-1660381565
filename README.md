@@ -203,5 +203,5 @@
 >           ⦿ [Project Development - Delivery Of Sprint-4] -
 >                
 
-### IBM Project | Dept of Information Technology | <img src="![gitup collage logo](https://user-images.githubusercontent.com/53140274/200807573-0e72dd88-de0e-4d9f-8729-2126bf32b5e4.png)
+### IBM Project | Dept of Information Technology | <img src="https://user-images.githubusercontent.com/53140274/200807573-0e72dd88-de0e-4d9f-8729-2126bf32b5e4.png
 " alt="InfiniteGraph Logo" width="20"> Mailam Engineering College 
