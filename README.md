@@ -157,50 +157,6 @@
   <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" type="image/webp">
   <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.gif" alt="🌟" width="32" height="32">
 </picture> $\color[RGB]{168,109,156} PROJECT \ WORKFLOW:$</h2></div>
-
->       ➼ Ideation phase
->          
->           ⦿ [Brainstroming- Idea Generation] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Brainstroming-Idea%20Generation-Prioritization.pdf
-
-            ⦿ [Problem statement] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Define%20Problem%20Statements.pdf
->          
->           ⦿ [Empathy Map Canvas] - https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Empathy%20Map%20(1).pdf
-
-            ⦿ [Literature Survey] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Literature%20Survey.pdf
->          
->       ➼ Project Design Phase – I
->            
->           ⦿ [Proposed Solution Fit] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Project%20Design%20Phase%20I/Problem%20solution%20fit.pdf
->          
->           ⦿ [Prepare Solution] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Project%20Design%20Phase%20I/Proposed%20Solution.pdf
->          
->           ⦿ [Solution Architecture] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Project%20Design%20Phase%20I/Solution%20Architecture.pdf
->          
->       ➼ Project Design Phase – II
->          
->           ⦿ [Data Flow Diagrams]-https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Project%20Design%20Phase%20II/Data%20Flow%20Diagrams%20and%20User%20Stories.pdf
->          
->           ⦿ [Solution Requirement] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Project%20Design%20Phase%20II/Solution%20Requirements.pdf
-   
-            ⦿ [Technical Stack] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Project%20Design%20Phase%20II/Technology%20Stack.pdf
-           
-            ⦿ [Customer Journey Map] -https://github.com/IBM-EPBL/IBM-Project-35071-1660281329/blob/main/Project%20Design%20%26%20Planning/Project%20Design%20Phase%20II/Customer%20Journey%20Map.pdf
->          
->       ➼ Project Planning Phase
->      
->           ⦿ [Prepare Milestone & Activity List] -
->          
->           ⦿ [Sprint Delivery Plan] -
->          
->       ➼ Project Development Phase
->      
->           ⦿ [Project Development - Delivery Of Sprint-1] -
->          
->           ⦿ [Project Development - Delivery Of Sprint-2] -    
->              
->           ⦿ [Project Development - Delivery Of Sprint-3]-
->          
->           ⦿ [Project Development - Delivery Of Sprint-4] -
->                
+              
 
 ### IBM Project | Dept of Information Technology | <img src="https://user-images.githubusercontent.com/53140274/201509926-2ef26640-f3d6-42a6-be68-29ab60a902ee.png" alt="InfiniteGraph Logo" width="20"> Mailam Engineering College 
