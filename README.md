@@ -152,11 +152,7 @@
 ![image](https://user-images.githubusercontent.com/70817219/194914841-4fc230f1-53f9-4b5a-8d9a-e902d9fc3581.png)
 
 
-<div>
- <h2><picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.gif" alt="🌟" width="32" height="32">
-</picture> $\color[RGB]{168,109,156} PROJECT \ WORKFLOW:$</h2></div>
+
               
 
 ### IBM Project | Dept of Information Technology | <img src="https://user-images.githubusercontent.com/53140274/201509926-2ef26640-f3d6-42a6-be68-29ab60a902ee.png" alt="InfiniteGraph Logo" width="20"> Mailam Engineering College 
