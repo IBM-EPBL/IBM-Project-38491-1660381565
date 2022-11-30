@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Introduction</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   </head>
+<style type="text/css">
+  
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400i,600,700,800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body
+  {
+      background-image: url("https://img3.goodfon.com/wallpaper/nbig/a/af/ruki-znaki-steny.jpg");
+      background-size: cover;
+  }
+
+.menu-container{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.button{
+  position: relative;
+  background: #1b1b1b;
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  width: 150px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: width .4s;
+}
+.button.expand{
+  width: 100%;
+}
+.fas.expand:before{
+  content: '\f00d';
+}
+ul{
+  list-style: none;
+  position: absolute;
+  top: 65px;
+  display: block;
+  background: #1b1b1b;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  display: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+ul:before{
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #1b1b1b;
+  top: -10px;
+  right: 15px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+ul li{
+  line-height: 35px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+ul li:last-child{
+  border-bottom: none;
+}
+ul li:hover{
+  box-shadow: inset 0 0 5px #33ffff,
+              inset 0 0 10px #66ffff;
+}
+ul li:hover:first-child{
+  border-radius: 5px 5px 0 0;
+}
+ul li:hover:last-child{
+  border-radius: 0 0 5px 5px;
+}
+ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+ul li:hover a{
+  color: cyan;
+}
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://img3.goodfon.com/wallpaper/nbig/a/af/ruki-znaki-steny.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</style>
+
+   <body>
+    <div>
+      <h1 style="text-align: center;">HAND GESTURE RECOGNITION</h1>
+
+    </div>
+
+
+    <div class="bg-image"></div>
+    <div class="bg-text">
+      <h2>Gesture Hand Recognition</h2>
+      <h1 style="font-size:50px">I am Sharmila Ezhumalai</h1>
+      <p>In this Project I have created for learn sign language
+          Sign language is the bridge that connects us to the world of 
+          those who have an impaired hearing; or verbal ability. 
+          An array of gestures made using hands, fingers, arms, head and also facial expressions.
+          The first person credited with the creation of a formal sign language 
+          for the hearing impaired was Pedro Ponce de León, a 16th-century Spanish Benedictine monk.
+      </p>
+    </div>
+
+
+          <div class="menu-container">
+         <div class="button">
+            Menu
+            <span class="fas fa-bars"></span>
+         </div>
+
+         <ul>
+            <li><a class="active" href="{{ url_for('home')}}">Home</a></li>
+            <li><a class="active" href="{{ url_for('intro')}}">Introduction</a></li>
+            <li><a class="active" href="{{ url_for('image1')}}"><u>Launch</u></a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+         </ul>
+      </div>
+      <script>
+         $(document).ready(function(){
+           $('.button').click(function(){
+             if($(this).hasClass('expand')){
+               $('ul').slideUp(function(){
+                 $('.button').removeClass('expand');
+                 $('.fas').removeClass('expand')
+               });
+             }else{
+               $(this).addClass('expand');
+               setTimeout(function(){
+                 $('.fas').addClass('expand');
+                 $('ul').stop().slideDown();
+               },200);
+             }
+           });
+         });
+      </script>
+
+   </body>
+</html>
